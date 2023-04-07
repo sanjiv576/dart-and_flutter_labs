@@ -11,7 +11,7 @@ String vowelOrConsonant({String? alphabet}) {
       (alphabet == 'i') ||
       (alphabet == 'o') ||
       (alphabet == 'u')) {
-    return 'vowel';
+    return '$alphabet is vowel';
   }
-  return 'consonant';
+  return '$alphabet is consonant';
 }
